@@ -44,8 +44,11 @@
             <h4><b>Our Location</b></h4>
             <p>Food Paradies, No.631, Kamburupitiya Road,<br> Matara, Sri Lanka</p>
             <p>HOTLINE: <br>0711243567 / 072-123-2456</p>
-
-
+            
+            
+        </div>
+        <div class="five">
+            <img src="./images/logo.png" alt="">
         </div>
     </div>
 

@@ -7,7 +7,7 @@
             display: flex;
         }
     </style>
-    <div class="main ">
+    <div class="main mt-5 pt-4 ">
         <div class="one">
             <ul>
                 <h4><b>Category</b></h4>

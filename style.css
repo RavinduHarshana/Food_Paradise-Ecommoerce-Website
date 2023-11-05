@@ -1,0 +1,92 @@
+body {
+    background-image:url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h3{
+    text-align: center;
+    color: rgb(238, 44, 0);
+}
+
+h2{
+ text-align: center;
+ color: rgb(19, 15, 15);
+ text-decoration: underline;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(210, 224, 222);
+    font-size: 50px;
+    font-weight: 400;
+    background-color: rgb(207, 168, 26)44, 165, 42);
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+p{
+    font-family:'Times New Roman';
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;;
+}
+
+
+.maindiv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.team-member img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 10%;
+    border: 10px solid rgb(153, 143, 143);
+
+}
+
+
+.team-member:hover{
+
+    scale: 1.4;
+
+}
+
+
+.para{
+    color: rgb(177, 170, 170);
+    text-align: center;
+    margin:10px 200px 0 200px;
+    font-size:20px;
+    text-shadow:10px;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.main_para {
+    background-color: black;
+}
+
+
+.posi{
+    color: rgb(184, 212, 73)255, 240);
+
+}
+
+.welcome{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    background-color: rgb(207, 168, 26)44, 165, 42);
+    margin: 0 200px 0 200px;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}

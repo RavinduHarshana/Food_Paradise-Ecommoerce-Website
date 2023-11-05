@@ -20,7 +20,7 @@ include "dbcon.php"
         
         ?>
 
-        <div class="card" style="width: 18rem; ">
+        <div id="clickableDiv" onclick="locate('<?php  echo $item[0];?>')" class="card" style="width: 18rem; ">
             <h4 class="card-title"><?php echo $item[0]?></h4>
             <img src="images\Category\Category-<?php echo $item[0]?>.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -32,13 +32,26 @@ include "dbcon.php"
         </div>
         <?php
          };
-      
       ?>
 
     </div>
+    <script>
+       function locate(id){
+            console.log(id);
+            window.location.href = "./Category_item.php?id=" +id;
+            
+        }
+        // document.getElementById("clickableDiv").addEventListener("click", function(id) {
+        //     // Navigate to another page when the div is clicked
+        //     // window.location.href = "./Category_item.php";
+        //     console.log(id);
+        // });
+    </script>
 
 
 </body>
+
+
 
 </html>
 

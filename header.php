@@ -29,9 +29,7 @@
             <li class="nav-item">
               <a href="#topics" class="nav-link">Top Items</a>
             </li>
-            <li class="nav-item">
-              <a href="#reviews" class="nav-link">Reviews</a>
-            </li>
+            
             <li class="nav-item">
               <a href="#contact" class="nav-link">Get in Touch</a>
             </li>

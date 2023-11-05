@@ -5,7 +5,8 @@
           <span class="fw-bold text-secondary"
             ><i class="bi bi-cup-hot"></i></i> TastyHub
 
-          </span>
+          </span> 
+          
         </a>
         <!-- toggle button for mobile nav -->
         <button

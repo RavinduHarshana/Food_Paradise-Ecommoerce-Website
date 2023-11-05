@@ -21,7 +21,7 @@ include "dbcon.php"
         ?>
 
         <div id="clickableDiv" onclick="locate('<?php  echo $item[0];?>')" class="card" style="width: 18rem; ">
-            <h4 class="card-title"><?php echo $item[0]?></h4>
+            <h4 class="card-title mt-3 "><?php echo $item[0]?></h4>
             <img src="images\Category\Category-<?php echo $item[0]?>.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the

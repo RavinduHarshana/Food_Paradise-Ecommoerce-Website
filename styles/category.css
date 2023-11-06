@@ -1,0 +1,6 @@
+.cat{
+    display: flex;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+}
